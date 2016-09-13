@@ -19,8 +19,7 @@ public class MainApp {
 				"(2) Wyswietl liste krajow posortowanych wedlug liczby ludnosci" + "\n" +
 				"(3) Dodaj kraj do listy" + "\n" +
 				"(4) Wyswietl liste" + "\n" +
-				"(5) Zapisz stan do pliku" + "\n" + 
-				"(6) Wyjscie z programu");
+				"(5) Wyjscie z programu");
 				
 				int o = scanner.nextInt();
 				switch (o) {
@@ -43,11 +42,9 @@ public class MainApp {
 					plik.showData();
 					break;
 				case 5:
-					
-				case 6:
 					return;
 				default:
-					System.out.println("Wybierz liczbe z zakresu 1-4!");
+					System.out.println("Wybierz liczbe z zakresu 1-5!");
 				}
 				
 			}

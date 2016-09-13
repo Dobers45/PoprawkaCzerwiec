@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.io.FileReader;
 import java.io.BufferedReader;
-import java.io.FileWriter;
 
 public class Methods {
 
@@ -17,14 +16,6 @@ public class Methods {
 		
 	}
 	
-	public void saveData() throws Exception {
-	
-		
-		FileWriter writer = new FileWriter("debt.txt");
-		for (Line line : lista) {
-			writer.write(String.parseStr(line));
-		}
-	}
 	
 	public void showData() {
 		for (Line line : lista) {
